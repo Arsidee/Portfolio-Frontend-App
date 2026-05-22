@@ -9,7 +9,7 @@ export default function Header() {
     <AppBar position="sticky" color="primary" elevation={2}>
       <Toolbar sx={{ justifyContent: 'space-between' }}>
         <Typography variant="h6" sx={{ fontWeight: 700, letterSpacing: 1 }}>
-          Frontend Projects
+          All Projects
         </Typography>
         <Button
           color="inherit"
