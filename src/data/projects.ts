@@ -17,6 +17,13 @@ export const projects: Project[] = [
 
   // Frontend
   {
+    title: 'Logistics Shipment Tracker',
+    description: 'A React dashboard for tracking shipments in real time — filter by status, view route details, and browse a full tracking event timeline.',
+    liveUrl: 'https://arsidee.github.io/Logistics-Shipment-Tracker/',
+    repoUrl: 'https://github.com/Arsidee/Logistics-Shipment-Tracker',
+    category: 'Frontend',
+  },
+  {
     title: 'GitHub User Info Viewer',
     description: 'Search for any GitHub username and display their public profile data via the GitHub API.',
     liveUrl: 'https://arsidee.github.io/User-Info-github/',
