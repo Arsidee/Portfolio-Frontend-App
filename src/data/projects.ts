@@ -17,6 +17,13 @@ export const projects: Project[] = [
 
   // Frontend
   {
+    title: 'Weather Dashboard',
+    description: 'Search any city to see current temperature, humidity, wind speed, and a 5-day forecast — powered by the OpenWeatherMap API.',
+    liveUrl: 'https://arsidee.github.io/weather-dashboard/',
+    repoUrl: 'https://github.com/Arsidee/weather-dashboard',
+    category: 'Frontend',
+  },
+  {
     title: 'Logistics Shipment Tracker',
     description: 'A React dashboard for tracking shipments in real time — filter by status, view route details, and browse a full tracking event timeline.',
     liveUrl: 'https://arsidee.github.io/Logistics-Shipment-Tracker/',

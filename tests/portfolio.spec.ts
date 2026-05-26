@@ -49,11 +49,21 @@ test.describe('Portfolio Site', () => {
     await expect(codeLink).toHaveAttribute('href', 'https://github.com/Arsidee/Tax-Docs-Portal');
   });
 
+  test('Logistics Shipement Tracker Live URL link points to your GitHub', async ({ page }) => {
+    const card = page.locator('.MuiCard-root').filter({ hasText: 'Logistics Shipment Tracker' });
+    const codeLink = card.getByRole('link', { name: /demo/i });
+    await expect(codeLink).toHaveAttribute('href', 'https://arsidee.github.io/Logistics-Shipment-Tracker/');
+  });
+
   test('project cards show correct category chips', async ({ page }) => {
     // Checks that all three category types are represented on the page.
     await expect(page.getByText('Full Stack').first()).toBeVisible();
     await expect(page.getByText('Frontend').first()).toBeVisible();
     await expect(page.getByText('Personal').first()).toBeVisible();
+  });
+
+  test('footer displays site build', async({page}) => {
+    await expect(page.getByText('Ryan Dilley. Built with React & Material UI.')).toBeVisible();
   });
 
 });
