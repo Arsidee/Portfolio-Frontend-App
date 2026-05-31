@@ -2,7 +2,7 @@
 
 A collection of frontend and full stack projects built with HTML, CSS, and JavaScript.
 
-**Live site:** [https://arsidee.github.io/Portfolio
+**Live site:** [https://arsidee.github.io/Portfolio]
 
 ## Tech Stack
 
